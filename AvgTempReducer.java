@@ -15,3 +15,4 @@ public class AvgTempReducer extends Reducer<Text, IntWritable, Text, IntWritable
         context.write(key, new IntWritable(avg));
     }
 }
+
