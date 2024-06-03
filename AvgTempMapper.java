@@ -11,4 +11,5 @@ public class AvgTempMapper extends Mapper<LongWritable, Text, Text, IntWritable>
         int airTemperature = Integer.parseInt(line.substring(87, 92));
         context.write(new Text(year), new IntWritable(airTemperature));
     }
+    
 }
