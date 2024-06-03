@@ -21,6 +21,7 @@ public class TopWordsReducer extends Reducer<Text, IntWritable, Text, IntWritabl
         if (queue.size() > 10) {
             queue.poll();
         }
+        
     }
 
     protected void cleanup(Context context) throws IOException, InterruptedException {
