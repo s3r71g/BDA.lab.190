@@ -15,3 +15,4 @@ public class TopWordsMapper extends Mapper<Object, Text, Text, IntWritable> {
         }
     }
 }
+
